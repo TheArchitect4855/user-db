@@ -1,0 +1,18 @@
+{
+  "name": "user-db",
+  "version": "1.0.0",
+  "description": "A user database built around a REST API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "author": "Kurtis Knodel",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "uuid": "^8.3.2"
+  }
+}
